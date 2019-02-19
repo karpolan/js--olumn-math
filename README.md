@@ -6,10 +6,12 @@ It was a test task on some Job interview.
 ## Task
 Calculate the sum as humans do
 
+```
    1234
  +  567
  ------
    1801
+```
 
 ## Implementation
 I've briefly created a function for adding.
