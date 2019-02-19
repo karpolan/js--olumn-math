@@ -20,7 +20,7 @@ function columnAddPositive(number1, number2) {
 		//console.log('Adding %s + %s, write: %s, save %s', a, b, sum, acc);
 		result = sum.toString() + result;
 	}
-	if (acc !== 0) result = acc.toString() + result; 
+	if (acc !== 0) result = acc.toString() + result;
 
 	//console.log('Adding %s + %s = %s, should be: %s', number1, number2, result, number1 + number2);
 	return result;
@@ -48,7 +48,7 @@ function columnSubPositive(number, subtractor) {
 			sub = 10 + sub;
 			acc = 1;
 		} else {
-			acc = 0;	
+			acc = 0;
 		}
 		//console.log('Subtracting %s - %s, write: %s, save %s', a, b, sub, acc);
 		result = sub.toString() + result;
@@ -151,7 +151,7 @@ function test() {
 	a = 222;
 	b = 99;
 	console.log('Subtracting %s - %s = %s, should be: %s', a, b, columnSubPositive(a, b), a - b);
-	
+
 	a = -222;
 	b = -111;
 	console.log('Subtracting %s - %s = %s, should be: %s', a, b, columnSub(a, b), a - b);
