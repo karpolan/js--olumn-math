@@ -59,7 +59,7 @@ function columnSubPositive(number, subtractor) {
 
 /**
  * Adds two numbers using column method (as humans do)
- * Work with negative numbers
+ * Works with negative numbers
  * @param {number} number1 - 1st number to sum 
  * @param {number} number2 - 2nd number to sum 
  */
@@ -77,7 +77,7 @@ function columnAdd(number1, number2) {
 }
 
 /**
- * Suntracts one number form another using column method (as humans do)
+ * Subtracts one number form another using column method (as humans do)
  * Works with negative numbers
  * @param {number} number1 - subtrahend number
  * @param {number} number2 - number to subtract
